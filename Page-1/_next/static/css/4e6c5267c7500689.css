@@ -1,0 +1,357 @@
+._id__font-sans__VFZOJ {
+  font-family: Neue Einstellung, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+._id__font-mono__jn5WH {
+  font-family: ui-monogap, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monogap;
+}
+
+._id__font-serif__YjwWZ {
+  font-family: "DM Serif Display", ui-serif, Georgia, Cambria, Times New Roman,
+    Times, serif;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-Thin"),
+    url(/fonts/NeueEinstellung-Thin.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-Thin.woff) format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-Light"),
+    url(/fonts/NeueEinstellung-Light.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("Neue Einstellung Regular"), local("NeueEinstellung-Regular"),
+    url(/fonts/NeueEinstellung-Regular.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-Medium"),
+    url(/fonts/NeueEinstellung-Medium.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-SemiBold"),
+    url(/fonts/NeueEinstellung-SemiBold.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-SemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-ExtraBold"),
+    url(/fonts/NeueEinstellung-ExtraBold.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-ExtraBold.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Einstellung;
+  src: local("NeueEinstellung-Black"),
+    url(/fonts/NeueEinstellung-Black.woff2) format("woff2"),
+    url(/fonts/NeueEinstellung-Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes _id__fade-in__TQlsu {
+  0% {
+    opacity: var(--o);
+    transform: translate(var(--x), var(--y));
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes _id__fade-out__fv5N_ {
+  0% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  to {
+    opacity: var(--o);
+    transform: translate(var(--x), var(--y));
+  }
+}
+
+@keyframes _id__grow-up__ST5dg {
+  0% {
+    opacity: var(--o);
+    max-width: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-width: var(--w);
+    max-height: var(--h);
+  }
+}
+
+@keyframes _id__grow-down__Ahloj {
+  0% {
+    opacity: 1;
+    max-width: var(--w);
+    max-height: var(--h);
+  }
+  to {
+    opacity: var(--o);
+    max-width: 0;
+    max-height: 0;
+  }
+}
+
+@keyframes _id__scale-in__5jT2p {
+  0% {
+    opacity: var(--o);
+    transform: scale(var(--s));
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes _id__scale-down__Z8AsK {
+  0% {
+    opacity: var(--o);
+    transform: scale(var(--s));
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes _id__wave__bE8Zs {
+  50% {
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes _id__blink__hA1Zv {
+  0%,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes _id__spin__8TtV_ {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+._id__main__I1V_p,
+._id__paging__Y91f8 {
+  width: 100%;
+  max-width: 1150px;
+  margin: 2.5rem auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+  ._id__main__I1V_p,
+  ._id__paging__Y91f8 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  ._id__main__I1V_p,
+  ._id__paging__Y91f8 {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
+}
+
+._id__fade-in-70px__XocgW {
+  --o: 0;
+  --y: 70px;
+  animation: _id__fade-in__TQlsu 1.95s cubic-bezier(0.2, 1, 0.3, 1) 0.2s
+    backwards;
+}
+
+._id__main__I1V_p {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1150px) {
+  ._id__main__I1V_p {
+    flex-direction: row-reverse;
+  }
+}
+
+._id__article__Cedem {
+  flex: 1 1;
+}
+
+._id__article__Cedem:after,
+._id__article__Cedem:before {
+  content: " ";
+  display: block;
+  padding: 1.25rem 0;
+}
+
+._id__article__Cedem:before {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+@media (min-width: 1150px) {
+  ._id__article__Cedem:after {
+    border-bottom: 1px solid #000;
+  }
+  ._id__article__Cedem {
+    margin-left: 1.5rem;
+  }
+}
+
+._id__content__7Jskb {
+  --y: 7px;
+  animation: _id__fade-in__TQlsu 0.85s cubic-bezier(0.3, 0.5, 0.5, 1) backwards;
+}
+
+._id__title__E6Cp6 {
+  font-size: 8vw;
+  text-align: center;
+  font-weight: 900;
+  padding: 3.5rem 2rem;
+}
+
+@media (min-width: 640px) {
+  ._id__title__E6Cp6 {
+    font-size: 7vw;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  ._id__title__E6Cp6 {
+    font-size: 1.5rem;
+  }
+}
+
+._id__body__FaXJA {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin: 0 auto 3.5rem;
+}
+
+._id__body__FaXJA img {
+  height: auto;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto 3.5rem;
+  display: block;
+}
+
+._id__body__FaXJA h1,
+._id__body__FaXJA h2,
+._id__body__FaXJA h3,
+._id__body__FaXJA h4,
+._id__body__FaXJA h5,
+._id__body__FaXJA h6 {
+  font-weight: 500;
+  margin: 1.25rem 0 0.625rem;
+}
+
+._id__body__FaXJA p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+._id__body__FaXJA p:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+._id__body__FaXJA a {
+  color: #d5333e;
+  font-weight: 500;
+}
+
+._id__sidebar__WqsgF {
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+@media (min-width: 1150px) {
+  ._id__sidebar__WqsgF {
+    width: 18.75rem;
+  }
+}
+
+._id__sidebar__WqsgF h4 {
+  font-weight: 800;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+._id__sidebar__WqsgF li {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1rem 1.25rem 1rem 1.75rem;
+  position: relative;
+  transition: all 0.6s cubic-bezier(0.2, 0.9, 0.4, 1);
+}
+
+._id__sidebar__WqsgF li._id__active__AFMj6 {
+  color: #d5333e;
+}
+
+._id__sidebar__WqsgF li:before {
+  content: "";
+  width: 7px;
+  height: 9px;
+  background: url(/images/chevron-right-red.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 21px;
+  left: 0;
+}
